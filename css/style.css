@@ -152,7 +152,6 @@ hr {
 }
 
 .gallery-wrapper {
-    display: inline-block;
     text-align: center;
     max-width: 1249px;
     width: 100%;
@@ -171,7 +170,7 @@ hr {
     justify-content: center;
     align-items: center;
     list-style: none;
-    margin: 0; 
+    margin: 86px auto 0; 
 }
 
 .gallery-menu a {
