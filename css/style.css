@@ -16,11 +16,15 @@ body {
 }
 
 header {
+    background-color: #e0e0e0;   
+}
+
+.menu {
     display: flex;
     background-color: #000000;
     min-height: 89px;
     max-width: 1249px;
-    margin: 0 auto;
+    margin: 0 auto;    
 }
 
 .site-menu {
@@ -41,7 +45,9 @@ header {
 .site-menu a:hover {
     background-color: #ff3f40;
 }
-
+.intro-grey {
+    background-color: #e0e0e0;    
+}
 .intro {
     display: flex;
     max-width: 1249px;
@@ -201,12 +207,14 @@ hr {
 }
 
 .team-wrapper {
-    display: inline-block;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
     max-width: 1249px;
     width: 100%;
-    margin: 0 auto;
     padding-left: 5px;
     padding-right: 5px;
+    margin: 0 auto;
 }
 
 .red {
@@ -454,7 +462,7 @@ hr {
         width: 551px;
         height: 356px;
     }
-    header {
+    .menu {
         align-items: center;
         justify-content: center;
     }
@@ -518,7 +526,7 @@ hr {
 }
 
 @media screen and (min-width: 700px) {
-    header {
+    .menu {
         align-items: center;
         justify-content: center;
     }
@@ -552,7 +560,7 @@ hr {
 }
 
 @media screen and (max-width: 700px) {
-    header {
+    .menu {
         align-items: center;
         justify-content: flex-start;
     }
